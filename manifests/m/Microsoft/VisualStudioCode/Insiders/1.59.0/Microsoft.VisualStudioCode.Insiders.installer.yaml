@@ -1,0 +1,34 @@
+PackageIdentifier: Microsoft.VisualStudioCode.Insiders
+PackageVersion: 1.59.0
+Commands:
+  - code-insiders
+InstallerType: inno
+InstallerSwitches:
+  Custom: /mergetasks=!runcode
+Installers:
+  - Architecture: arm64
+    Scope: machine
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeSetup-arm64-1.59.0-insider.exe'
+    InstallerSha256: 1bd9e109c6be22b771b83b44328f3b4e08899dc8094ba1e00c2183f8f2bc8ed5
+  - Architecture: arm64
+    Scope: user
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeUserSetup-arm64-1.59.0-insider.exe'
+    InstallerSha256: b6f4e632166c3e2c21218ab30da53bf908f782aa0cf049b90e616b503ffbd823
+  - Architecture: x64
+    Scope: machine
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeSetup-x64-1.59.0-insider.exe'
+    InstallerSha256: 047927343fec4018287a3a125c0b02eca90410af6d4f02d964722cb8d4b794af
+  - Architecture: x64
+    Scope: user
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeUserSetup-x64-1.59.0-insider.exe'
+    InstallerSha256: 8d53f07e2bf524c42e6fe464a7e3437cab2b4b3cab149d26eb14ffbe399f9a52
+  - Architecture: x86
+    Scope: machine
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeSetup-ia32-1.59.0-insider.exe'
+    InstallerSha256: 4f125bfc46bca3573843fe697b124b75365df98810b88f691cf2f7751ca90871
+  - Architecture: x86
+    Scope: user
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/a9070718ebb793eef4e94e34307eee15c09a0cd4/VSCodeUserSetup-ia32-1.59.0-insider.exe'
+    InstallerSha256: 2ee1cc57b84268f00158c9fb87348ad09d941c162a49ec0a71027ac4f6eaa764
+ManifestType: installer
+ManifestVersion: 1.0.0
